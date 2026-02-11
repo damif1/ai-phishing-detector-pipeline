@@ -1,0 +1,26 @@
+From: "Security Alert" <no-reply@paypa1-support.com>
+To: target-user@example.com
+Subject: Action Required: Your account has been suspended!
+Date: Tue, 03 Feb 2026 14:00:00 +0000
+Content-Type: multipart/alternative; boundary="boundary-string"
+
+--boundary-string
+Content-Type: text/plain; charset="utf-8"
+
+Your account has been flagged for suspicious activity. 
+Please log in immediately to verify your identity: http://paypa1-secure-login.com/verify
+
+--boundary-string
+Content-Type: text/html; charset="utf-8"
+
+<html>
+  <body>
+    <h1>Security Alert</h1>
+    <p>We noticed a login attempt from a new device in <b>Moscow, Russia</b>.</p>
+    <p>If this wasn't you, please click the link below:</p>
+    <a href="http://paypa1-secure-login.com/verify">Verify My Account Now</a>
+    <br>
+    <p>Thank you,<br>The Security Team</p>
+  </body>
+</html>
+--boundary-string--
