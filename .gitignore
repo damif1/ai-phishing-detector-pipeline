@@ -1,0 +1,19 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+venv/
+env/
+.env
+
+# Logs and local data
+data/logs/*
+!data/logs/.gitkeep
+data/raw_emails/*
+!data/raw_emails/.gitkeep
+
+# OS generated files
+.DS_Store
+Thumbs.db
